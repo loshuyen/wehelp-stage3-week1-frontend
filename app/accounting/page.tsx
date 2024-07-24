@@ -1,8 +1,9 @@
-import Form from "../components/form";
-import List from "../components/list";
-import Total from "../components/total";
+'use client'
+
+import Form from "../../components/form";
+import List from "../../components/list";
+import Total from "../../components/total";
 import { useState } from "react";
-import React from 'react';
 
 interface Item {
     expense: number

@@ -19,7 +19,7 @@
   margin: 50px auto;
 }
 
-.main {
+.container {
   display: flex;
   justify-content: center;
 }
