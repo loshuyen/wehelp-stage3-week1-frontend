@@ -18,7 +18,7 @@ function Total({items}) {
                 小計：{total}
             </div>
             <Link href="/">
-                <button>返回首頁</button>
+                <button className={styles.btn}>返回首頁</button>
             </Link>
         </div>
     );

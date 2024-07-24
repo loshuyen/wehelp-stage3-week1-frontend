@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.home}>
       <header className={styles.headers}>
         React 練習專案
       </header>
@@ -12,7 +12,7 @@ export default function Home() {
       </div>
       <div className={styles.container}>
           <Link href="/accounting" className={styles.startBtn}>
-            <button>點此開始</button>
+            <button className={styles.btn}>點此開始</button>
           </Link>
       </div>
     </div>
