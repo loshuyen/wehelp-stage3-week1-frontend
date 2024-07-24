@@ -1,0 +1,25 @@
+.headers {
+  background-color: #1b4965;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.welcome {
+  background-color: lightskyblue;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.startBtn {
+  margin: 50px auto;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,21 @@
+.container {
+    margin: 0 auto;
+    max-width: 500px;
+   
+    display: flex;
+    justify-content: center;
+}
+.expenseGreen {
+    width: 100px;
+    color: lightseagreen;
+}
+.expenseRed {
+    width: 100px;
+    color: lightcoral;
+}
+.name {
+    margin-right: auto;
+}
+.delete {
+    padding: 0 10px;
+}
