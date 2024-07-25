@@ -12,10 +12,14 @@ function Form({ addItem }) {
       <button
         className={styles.btn}
         onClick={() => {
-          const expenseType = (document.querySelector("#type") as HTMLInputElement).value;
-          let cost = (document.querySelector("#expense") as HTMLInputElement).value;
-          const name = (document.querySelector("#name") as HTMLInputElement).value;
-          let expense = Number.parseInt(cost);
+          const expenseType:string = (
+            document.querySelector("#type") as HTMLInputElement
+          ).value;
+          let cost:string = (document.querySelector("#expense") as HTMLInputElement)
+            .value;
+          const name:string = (document.querySelector("#name") as HTMLInputElement)
+            .value;
+          let expense:number = Number.parseInt(cost);
           expense = expenseType === "expense" ? (expense *= -1) : expense;
           addItem({ expense: expense, name: name });
         }}
